@@ -1,0 +1,21 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+# Secrets
+.env
+.env.local
+# Node
+node_modules/
+# macOS
+.DS_Store
+**/.DS_Store
+
+# Private keys for the outreach scripts
+secrets_local.py
+
+# Other people's contact details (lead lists) stay local
+Emails/
+*.xlsx
